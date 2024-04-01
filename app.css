@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Ralendy";
+   background-color: black;
+
+}
+
+.img{
+    width: 200px; 
+    height: 200px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 710px;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+    border: 6px solid rgb(200, 200, 200, .08);
+    box-shadow: 0 0 20px rgba(0, 0, 0, -2);
+    
+}
+
+.video{
+    position: absolute;
+    margin-left: 80px;
+    bottom: 0;
+    z-index: -1;
+    background-size:100% 100% ;
+    background-attachment: fixed;
+}
+
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background: rgb(192, 192, 192,.2);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+    color: #fff;
+    font-weight: 600;
+    margin: 400px 610px;
+    position: absolute;
+    margin-top: 130px;
+    justify-content: center;
+}
+
+.btn a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-weight:  600;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+.bimg {
+    margin-top: 300px;
+    
+}
+
+.card{
+    position: absolute;
+    transform: translatey(200px);
+    left: 515px;
+}
+
+.card{
+   
+    width: 400px;
+    height: 275px;
+    margin: 75px auto 0;
+    background: rgb(200, 200, 200, .3);
+    box-shadow: 0 3px rgba(0, 0, 0, .20) ;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 90px;
+    border-radius: 10%;
+    backdrop-filter: blur(5px);
+    
+    
+}
+
+.card .card-header{
+    position: relative;
+    height: 55px;
+    margin-bottom: 20px;
+
+}
+
+.card .card-header .profile-img{
+   width: 130px; 
+   height: 130px;
+   border-radius: 1000px;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border: 6px solid rgb(200, 200, 200, .08);
+   box-shadow: 0 0 20px rgb(0, 0, 0, -2);
+
+}
+.card.card-body{
+    padding: 15px 40px;
+
+}
+
+.card .card-body .full-name{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    margin-top: 20px;
+}
+
+.card .card-body .user-name{
+    font-size: 20px;
+    color: black;
+    margin: 5px 0 0;
+    margin-top: 5px;
+}
+
+.card .card-body .city {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 10px 0 0;
+    margin-top: 0;
+
+}
+.card .card-body .gg{
+    line-height: 12px;
+    margin-top: 15px
+    ;
+}
+
+.card .icon{
+    font-size: 80px;
+    margin: 0px 7px;
+    line-height: 60%;
+    
+}
+
+.card .icon .icon-facebook{
+   color: blue; 
+   margin: 20px;
+  
+}
+
+.card .icon .icon-insta{
+    color: palevioletred; 
+    margin: 20px;
+ }
+
+ .card .icon .icon-x{
+    
+    color: black; 
+    margin: 20px;
+  
+
+ }
+
+
+
+ .card .icon .icon-x::after{
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    background: black;
+    border-radius: 5px;
+    left: 260px;
+    bottom: 10px;
+  
+   
+ }
+
+ .card .icon .icon-insta::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3.5px;
+    background: palevioletred;
+    border-radius: 5px;
+    left: 185px;
+    bottom: 10px;
+  
+   
+ }
+
+ .card .icon .icon-facebook::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3.5px;
+    background: blue;
+    border-radius: 5px;
+    left: 108px;
+    bottom: 10px;
+  
+   
+ }
+
+.card-footer .fbtn{
+    margin-top:40px;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-weight:  600;
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    background: rgb(192, 192, 192,.2);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+
+}
+
+.fbtn a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    font-weight:  600;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
